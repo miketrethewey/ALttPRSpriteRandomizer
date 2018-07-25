@@ -7,7 +7,7 @@ import sys
 #  Needs ALttPEntranceRandomizer python script
 #  Place SpriteRandomizer.py into ALttPER \data\ folder
 #  Script will pull all *.sfc files in \data\gamefiles\
-#  Script will pull a random *.zspr file from \data\sprites\ to patch into each *.sfc, choosing a new sprite each time
+#  Script will pull a random *.zspr file from \data\sprites\ to patch into each *.sfc, choosing a random sprite each time (may result in duplicates)
 # Usage:
 #  python SpriteRandomizer.py
 # Output:
